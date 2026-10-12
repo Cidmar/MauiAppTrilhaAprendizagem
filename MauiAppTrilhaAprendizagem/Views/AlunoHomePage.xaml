@@ -1,12 +1,25 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppTrilhaAprendizagem.Views.AlunoHomePage">
+             x:Class="MauiAppTrilhaAprendizagem.Views.AlunoHomePage"
+             Title="Área do Aluno">
     
     <VerticalStackLayout Padding="20" Spacing="15">
-        <Label Text="Bem-vindo, Aluno!"
-               FontSize="24"
+        <Label Text="Bem-vindo à sua trilha de aprendizagem!"
+               FontSize="22"
                HorizontalOptions="Center"
-               TextColor="DarkGreen"/>
+               TextColor="DarkBlue"/>
+
+        <Button Text="📚 Minhas Trilhas"
+                HorizontalOptions="Fill"
+                Clicked="OnTrilhasClicked"/>
+
+        <Button Text="📝 Exercícios e Avaliações"
+                HorizontalOptions="Fill"
+                Clicked="OnExerciciosClicked"/>
+
+        <Button Text="📊 Meu Progresso"
+                HorizontalOptions="Fill"
+                Clicked="OnProgressoClicked"/>
 
         <Button Text="Sair"
                 BackgroundColor="#0078D7"

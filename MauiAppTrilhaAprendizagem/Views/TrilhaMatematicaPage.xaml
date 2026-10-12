@@ -1,0 +1,38 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppTrilhaAprendizagem.Views.TrilhaMatematicaPage"
+             Title="Trilha de Matemática">
+
+    <VerticalStackLayout Padding="20" Spacing="20">
+
+        <Label x:Name="PerguntaLabel"
+               Text="Pergunta aparecerá aqui"
+               FontSize="24"
+               HorizontalOptions="Center" />
+
+        <Image x:Name="ExercicioImage"
+               HeightRequest="200"
+               HorizontalOptions="Center" />
+
+        <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+            <Button Text="1" Clicked="OnRespostaClicked"/>
+            <Button Text="2" Clicked="OnRespostaClicked"/>
+            <Button Text="3" Clicked="OnRespostaClicked"/>
+            <Button Text="4" Clicked="OnRespostaClicked"/>
+            <Button Text="5" Clicked="OnRespostaClicked"/>
+        </HorizontalStackLayout>
+
+        <Label x:Name="FeedbackLabel"
+               Text=""
+               FontSize="20"
+               TextColor="Green"
+               HorizontalOptions="Center" />
+
+        <Button x:Name="ProximoButton"
+                Text="Próximo"
+                IsVisible="False"
+                Clicked="OnProximoClicked"
+                HorizontalOptions="Center" />
+
+    </VerticalStackLayout>
+</ContentPage>

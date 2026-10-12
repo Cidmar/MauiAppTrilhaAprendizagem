@@ -12,4 +12,6 @@
                   ContentTemplate="{DataTemplate views:CadastroPage}" />
 
     <!-- Você pode adicionar mais páginas aqui -->
+    <ShellContent Route="TrilhaMatematicaPage"
+              ContentTemplate="{DataTemplate views:TrilhaMatematicaPage}" />
 </Shell>
