@@ -1,0 +1,17 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppTrilhaAprendizagem.Views.DesignerHomePage">
+   
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label Text="Bem-vindo, Designer Pedagógico!"
+               FontSize="24"
+               HorizontalOptions="Center"
+               TextColor="Purple"/>
+
+        <Button Text="Sair"
+                BackgroundColor="#0078D7"
+                TextColor="White"
+                Clicked="OnLogoutClicked"/>
+    </VerticalStackLayout>
+</ContentPage>

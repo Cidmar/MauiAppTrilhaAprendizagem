@@ -1,0 +1,33 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppTrilhaAprendizagem.Views.CadastroPage"
+             Title="Cadastro de Usuário">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <Label Text="Cadastro de Usuário"
+                   FontSize="24"
+                   HorizontalOptions="Center"
+                   TextColor="DarkBlue"/>
+
+            <Entry x:Name="NomeEntry" Placeholder="Nome completo"/>
+            <Entry x:Name="EmailEntry" Placeholder="Email" Keyboard="Email"/>
+            <Entry x:Name="SenhaEntry" Placeholder="Senha" IsPassword="True"/>
+
+            <Picker x:Name="PerfilPicker" Title="Selecione o perfil">
+                <Picker.Items>
+                    <x:String>Aluno</x:String>
+                    <x:String>Professor</x:String>
+                    <x:String>Designer Pedagógico</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Button Text="Cadastrar"
+                    BackgroundColor="#0078D7"
+                    TextColor="White"
+                    Clicked="OnCadastrarClicked"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,27 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppTrilhaAprendizagem.Views.LoginPage"
+             Title="Login">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+
+        <Label Text="Acesso ao Sistema"
+               FontSize="24"
+               HorizontalOptions="Center"
+               TextColor="DarkBlue"/>
+
+        <Entry x:Name="EmailEntry" Placeholder="Email" Keyboard="Email"/>
+        <Entry x:Name="SenhaEntry" Placeholder="Senha" IsPassword="True"/>
+
+        <Button Text="Entrar"
+                BackgroundColor="#0078D7"
+                TextColor="White"
+                Clicked="OnLoginClicked"/>
+
+        <Button Text="Cadastrar novo usuário"
+                BackgroundColor="#E0E0E0"
+                TextColor="Black"
+                Clicked="OnCadastroClicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>
