@@ -22,9 +22,7 @@ namespace MauiAppTrilhaAprendizagem
         public App()
         {
             InitializeComponent();
-
-            // Define que o AppShell é a página inicial
-            MainPage = new AppShell();
+            MainPage = new AppShell(); // Define o AppShell como página inicial
         }
     }
 }

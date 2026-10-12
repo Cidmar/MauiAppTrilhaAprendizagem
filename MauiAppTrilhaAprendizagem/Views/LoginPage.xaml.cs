@@ -46,5 +46,6 @@ namespace MauiAppTrilhaAprendizagem.Views
         {
             await Navigation.PushAsync(new CadastroPage());
         }
+
     }
 }

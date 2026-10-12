@@ -1,17 +1,15 @@
-﻿<Shell
-    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:views="clr-namespace:MauiAppTrilhaAprendizagem.Views"
-    x:Class="MauiAppTrilhaAprendizagem.AppShell">
-
-    <!-- Tela inicial: Login -->
-    <ShellContent
-        Title="Login"
-        ContentTemplate="{DataTemplate views:LoginPage}" />
-
-    <!-- Tela de Cadastro -->
-    <ShellContent
-        Title="Cadastro"
-        ContentTemplate="{DataTemplate views:CadastroPage}" />
-
-</Shell>
+﻿<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppTrilhaAprendizagem.App">
+    <!-- Aqui você pode definir recursos globais do aplicativo -->
+    <Application.Resources>
+        <ResourceDictionary>
+            <!-- Exemplo: cores, estilos, fontes -->
+            <Color x:Key="PrimaryColor">#512BD4</Color>
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="16" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

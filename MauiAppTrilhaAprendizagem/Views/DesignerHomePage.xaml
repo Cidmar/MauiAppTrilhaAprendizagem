@@ -9,6 +9,9 @@
                HorizontalOptions="Center"
                TextColor="Purple"/>
 
+        <Button Text="Criar Conteúdos"
+                HorizontalOptions="Center" />
+
         <Button Text="Sair"
                 BackgroundColor="#0078D7"
                 TextColor="White"

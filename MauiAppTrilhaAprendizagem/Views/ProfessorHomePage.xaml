@@ -7,6 +7,9 @@
                FontSize="24"
                HorizontalOptions="Center"
                TextColor="DarkBlue"/>
+        
+        <Button Text="Gerenciar Trilhas"
+                HorizontalOptions="Center" />
 
         <Button Text="Sair"
                 BackgroundColor="#0078D7"

@@ -4,13 +4,12 @@
        x:Class="MauiAppTrilhaAprendizagem.AppShell">
 
     <!-- Tela inicial: Login -->
-    <ShellContent
-        Title="Login"
-        ContentTemplate="{DataTemplate views:LoginPage}" />
+    <ShellContent Title="Login"
+                  ContentTemplate="{DataTemplate views:LoginPage}" />
 
     <!-- Tela de Cadastro -->
-    <ShellContent
-        Title="Cadastro"
-        ContentTemplate="{DataTemplate views:CadastroPage}" />
+    <ShellContent Title="Cadastro"
+                  ContentTemplate="{DataTemplate views:CadastroPage}" />
 
+    <!-- Você pode adicionar mais páginas aqui -->
 </Shell>
