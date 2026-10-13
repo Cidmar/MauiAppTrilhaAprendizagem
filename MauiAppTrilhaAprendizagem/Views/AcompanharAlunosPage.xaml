@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppTrilhaAprendizagem.Views.AcompanharAlunosPage"
+             Title="Acompanhar Alunos">
+
+    <VerticalStackLayout Spacing="15" Padding="20">
+        <Label Text="Progresso dos Alunos na Trilha" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center" />
+        <!-- Lista simulada de alunos -->
+        <Frame BorderColor="Gray" Padding="10">
+            <VerticalStackLayout>
+                <Label Text="Aluno: Cidmar Saraiva da Silva" FontAttributes="Bold" />
+                <Label Text="Status: Atividade 1 Concluída (Nota: 9.0)" TextColor="DarkGreen" />
+            </VerticalStackLayout>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppTrilhaAprendizagem.Views.EditarTrilhasPage"
+             Title="Editar Trilhas">
+
+    <VerticalStackLayout Spacing="20" Padding="30">
+        <Label Text="Editor de Sequência Pedagógica" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center" />
+        <Label Text="Selecione a trilha para modificar a ordem das fases." />
+        <Button Text="Atualizar Ordem das Fases" BackgroundColor="Purple" TextColor="White" />
+    </VerticalStackLayout>
+</ContentPage>

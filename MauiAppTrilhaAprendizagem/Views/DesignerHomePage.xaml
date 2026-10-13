@@ -1,29 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppTrilhaAprendizagem.Views.DesignerHomePage"
              Title="Área do Designer Pedagógico">
 
-    <VerticalStackLayout Padding="20" Spacing="15">
+    <VerticalStackLayout Spacing="25" Padding="30" VerticalOptions="Center">
+
         <Label Text="Bem-vindo, Designer Pedagógico!"
                FontSize="22"
+               FontAttributes="Bold"
                HorizontalOptions="Center"
-               TextColor="Purple"/>
+               TextColor="Purple" />
 
         <Button Text="✏️ Criar Conteúdos"
-                HorizontalOptions="Fill"
-                Clicked="OnCriarConteudosClicked"/>
+                Clicked="OnCriarConteudosClicked"
+                BackgroundColor="White"
+                TextColor="Black"
+                BorderColor="LightGray"
+                BorderWidth="1" />
 
         <Button Text="🛠️ Editar Trilhas"
-                HorizontalOptions="Fill"
-                Clicked="OnEditarTrilhasClicked"/>
+                Clicked="OnEditarTrilhasClicked"
+                BackgroundColor="White"
+                TextColor="Black"
+                BorderColor="LightGray"
+                BorderWidth="1" />
 
         <Button Text="🤝 Colaborar com Professores"
-                HorizontalOptions="Fill"
-                Clicked="OnColaborarClicked"/>
+                Clicked="OnColaborarClicked"
+                BackgroundColor="White"
+                TextColor="Black"
+                BorderColor="LightGray"
+                BorderWidth="1" />
 
         <Button Text="Sair"
-                BackgroundColor="#0078D7"
+                Clicked="OnSairClicked"
+                BackgroundColor="#007ACC"
                 TextColor="White"
-                Clicked="OnLogoutClicked"/>
+                FontAttributes="Bold" />
+
     </VerticalStackLayout>
 </ContentPage>

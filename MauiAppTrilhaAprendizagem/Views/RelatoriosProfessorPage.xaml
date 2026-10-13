@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppTrilhaAprendizagem.Views.RelatoriosProfessorPage"
+             Title="Relatórios Pedagógicos">
+
+    <VerticalStackLayout Spacing="20" Padding="30">
+        <Label Text="Emissão de Relatórios de Desempenho" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center" />
+        <Button Text="Gerar Relatório Geral em PDF" BackgroundColor="#007ACC" TextColor="White" />
+    </VerticalStackLayout>
+</ContentPage>

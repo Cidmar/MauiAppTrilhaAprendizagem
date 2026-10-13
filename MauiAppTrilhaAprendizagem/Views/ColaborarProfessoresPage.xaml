@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppTrilhaAprendizagem.Views.ColaborarProfessoresPage"
+             Title="Colaborar com Professores">
+
+    <VerticalStackLayout Spacing="20" Padding="30">
+        <Label Text="Alinhamento e Feedback Pedagógico" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center" />
+        <Editor Placeholder="Escreva anotações ou diretrizes para a equipe docente..." HeightRequest="120" />
+        <Button Text="Enviar Diretrizes" BackgroundColor="Purple" TextColor="White" />
+    </VerticalStackLayout>
+</ContentPage>

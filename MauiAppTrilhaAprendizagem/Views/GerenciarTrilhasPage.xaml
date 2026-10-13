@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppTrilhaAprendizagem.Views.GerenciarTrilhasPage"
+             Title="Gerenciar Trilhas">
+
+    <VerticalStackLayout Spacing="20" Padding="30">
+        <Label Text="Cadastro e Gestão de Trilhas" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center" />
+        <Entry Placeholder="Nome da Trilha (ex: Matemática Básica)" />
+        <Editor Placeholder="Descrição detalhada dos objetivos..." HeightRequest="100" />
+        <Button Text="Salvar Nova Trilha" BackgroundColor="Green" TextColor="White" />
+    </VerticalStackLayout>
+</ContentPage>
