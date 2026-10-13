@@ -14,12 +14,11 @@
                HeightRequest="200"
                HorizontalOptions="Center" />
 
-        <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
-            <Button Text="1" Clicked="OnRespostaClicked"/>
-            <Button Text="2" Clicked="OnRespostaClicked"/>
-            <Button Text="3" Clicked="OnRespostaClicked"/>
-            <Button Text="4" Clicked="OnRespostaClicked"/>
-            <Button Text="5" Clicked="OnRespostaClicked"/>
+        <HorizontalStackLayout
+           x:Name="BotoesLayout"
+           HorizontalOptions="Center"
+           VerticalOptions="Center"
+           Spacing="10">
         </HorizontalStackLayout>
 
         <Label x:Name="FeedbackLabel"
